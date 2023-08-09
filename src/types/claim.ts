@@ -22,6 +22,23 @@ export type PropertySnaks = Snak[]
 export type Claims = Record<PropertyId, PropertyClaims>
 export type Snaks = Record<PropertyId, PropertySnaks>
 
+// export type DataType =
+//   | 'commonsMedia'
+//   | 'external-id'
+//   | 'geo-shape'
+//   | 'globe-coordinate'
+//   | 'monolingualtext'
+//   | 'quantity'
+//   | 'string'
+//   | 'tabular-data'
+//   | 'time'
+//   | 'url'
+//   | 'wikibase-form'
+//   | 'wikibase-item'
+//   | 'wikibase-lexeme'
+//   | 'wikibase-property'
+//   | 'wikibase-sense'
+
 export interface Snak {
   datatype: DataType
   datavalue?: SnakValue

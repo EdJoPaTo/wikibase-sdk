@@ -25,6 +25,7 @@
     "test": "test"
   },
   "scripts": {
+    "bla": "./scripts/current_entities_typings.ts",
     "add-fixture-entity": "./scripts/add_fixture_entity",
     "build": "tsc",
     "check-supported-datatypes": "./scripts/check_supported_datatypes",
